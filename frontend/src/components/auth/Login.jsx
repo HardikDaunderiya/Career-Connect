@@ -107,10 +107,14 @@ const Login = () => {
                         </RadioGroup>
                     </div>
                     {
+<<<<<<< HEAD
                         loading ? <Button className="w-full my-4"> <Loader2 className='mr-2 h-4 w-4 animate-spin' /> Please wait </Button> :   <Button
                         type="submit"
                         className="w-full bg-[#6A38C2] hover:bg-[#4b2594] text-white font-semibold py-2 px-4 rounded-md transition"
                       >Login</Button>
+=======
+                        loading ? <Button className="w-full my-4"> <Loader2 className='mr-2 h-4 w-4 animate-spin' /> Please wait </Button> : <Button type="submit" className="w-full my-4">Login</Button>
+>>>>>>> 034de4752cfcdbd25d6d8c096d4edf920a8e0fcb
                     }
                     <span className='text-sm'>Don't have an account? <Link to="/signup" className='text-blue-600'>Signup</Link></span>
                 </form>

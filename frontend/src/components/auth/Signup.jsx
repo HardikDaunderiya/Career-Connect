@@ -80,7 +80,11 @@ const Signup = () => {
                             value={input.fullname}
                             name="fullname"
                             onChange={changeEventHandler}
+<<<<<<< HEAD
                             placeholder="Hardik"
+=======
+                            placeholder="patel"
+>>>>>>> 034de4752cfcdbd25d6d8c096d4edf920a8e0fcb
                         />
                     </div>
                     <div className='my-2'>
@@ -90,7 +94,11 @@ const Signup = () => {
                             value={input.email}
                             name="email"
                             onChange={changeEventHandler}
+<<<<<<< HEAD
                             placeholder="hardik@gmail.com"
+=======
+                            placeholder="patel@gmail.com"
+>>>>>>> 034de4752cfcdbd25d6d8c096d4edf920a8e0fcb
                         />
                     </div>
                     <div className='my-2'>
@@ -110,7 +118,11 @@ const Signup = () => {
                             value={input.password}
                             name="password"
                             onChange={changeEventHandler}
+<<<<<<< HEAD
                             placeholder="Hardik@123"
+=======
+                            placeholder="patel@gmail.com"
+>>>>>>> 034de4752cfcdbd25d6d8c096d4edf920a8e0fcb
                         />
                     </div>
                     <div className='flex items-center justify-between'>
@@ -149,10 +161,14 @@ const Signup = () => {
                         </div>
                     </div>
                     {
+<<<<<<< HEAD
                         loading ? <Button className="w-full my-4"> <Loader2 className='mr-2 h-4 w-4 animate-spin' /> Please wait </Button> :<Button
                         type="submit"
                         className="w-full bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-4 rounded-md transition"
                       >Signup</Button>
+=======
+                        loading ? <Button className="w-full my-4"> <Loader2 className='mr-2 h-4 w-4 animate-spin' /> Please wait </Button> : <Button type="submit" className="w-full my-4">Signup</Button>
+>>>>>>> 034de4752cfcdbd25d6d8c096d4edf920a8e0fcb
                     }
                     <span className='text-sm'>Already have an account? <Link to="/login" className='text-blue-600'>Login</Link></span>
                 </form>

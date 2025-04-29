@@ -71,7 +71,11 @@ const UpdateProfileDialog = ({ open, setOpen }) => {
     return (
         <div>
             <Dialog open={open}>
+<<<<<<< HEAD
                 <DialogContent className="sm:max-w-[425px] bg-white rounded-lg" onInteractOutside={() => setOpen(false)}>
+=======
+                <DialogContent className="sm:max-w-[425px]" onInteractOutside={() => setOpen(false)}>
+>>>>>>> 034de4752cfcdbd25d6d8c096d4edf920a8e0fcb
                     <DialogHeader>
                         <DialogTitle>Update Profile</DialogTitle>
                     </DialogHeader>

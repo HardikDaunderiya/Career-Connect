@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 /backend/node_modules
 /build
 /dist
 .env
 node_modules/
+=======
+.env
+node_modules
+>>>>>>> 034de4752cfcdbd25d6d8c096d4edf920a8e0fcb

@@ -1,4 +1,5 @@
 import express from "express";
+<<<<<<< HEAD
 import { login, updateProfile, register} from "../controllers/user.controller.js";
 import isAuthenticated from "../middlewares/isAuthenticated.js";
 import { logout } from "../controllers/user.controller.js";
@@ -10,6 +11,18 @@ router.route("/register").post(singleUpload, register);
 router.route("/login").post(login);
 router.route("/profile/update").post(isAuthenticated,singleUpload,updateProfile);
 router.route("/logout").get(logout);
+=======
+import { login, logout, register, updateProfile } from "../controllers/user.controller.js";
+import isAuthenticated from "../middlewares/isAuthenticated.js";
+import { singleUpload } from "../middlewares/mutler.js";
+ 
+const router = express.Router();
+
+router.route("/register").post(singleUpload,register);
+router.route("/login").post(login);
+router.route("/logout").get(logout);
+router.route("/profile/update").post(isAuthenticated,singleUpload,updateProfile);
+>>>>>>> 034de4752cfcdbd25d6d8c096d4edf920a8e0fcb
 
 export default router;
 

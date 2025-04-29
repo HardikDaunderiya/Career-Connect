@@ -6,15 +6,23 @@
   "tailwind": {
     "config": "tailwind.config.js",
     "css": "src/index.css",
+<<<<<<< HEAD
     "baseColor": "neutral",
+=======
+    "baseColor": "slate",
+>>>>>>> 034de4752cfcdbd25d6d8c096d4edf920a8e0fcb
     "cssVariables": true,
     "prefix": ""
   },
   "aliases": {
     "components": "@/components",
+<<<<<<< HEAD
     "utils": "@/lib/utils",
     "ui": "@/components/ui",
     "lib": "@/lib",
     "hooks": "@/hooks"
+=======
+    "utils": "@/lib/utils"
+>>>>>>> 034de4752cfcdbd25d6d8c096d4edf920a8e0fcb
   }
 }
